@@ -16,5 +16,4 @@ function mapStateToProps(state) {
     user: state.activeUser
   };
 }
-
 export default connect(mapStateToProps)(UserDetails);
