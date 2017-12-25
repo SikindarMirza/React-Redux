@@ -14,7 +14,7 @@ class UserList extends React.Component{
   render() {
     return(
       <ul>
-      <li>hi</li>
+      <li>This is my first React application</li>
         {this.loopUsers()}
       </ul>
 
@@ -30,4 +30,5 @@ function mapStateToProps(state) {
 function mapDispatch(dispatch) {
   return bindActionCreators({selectUser: selectUser}, dispatch)
 }
+
 export default connect(mapStateToProps,mapDispatch)(UserList);
